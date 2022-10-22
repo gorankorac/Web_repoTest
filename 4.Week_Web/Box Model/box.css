@@ -1,0 +1,29 @@
+/* p {
+  background-color: aqua;
+  padding-top: 50px;
+  display: block;
+
+}
+
+ .firstone  {
+  padding: 50px 50px;
+  margin: 50px;
+  width: 300px;
+}
+
+.thirdone {
+  padding: 50px 50px;
+  width: 200px;
+  margin-left: 100px;
+} */
+
+/* .secondone {
+  width: 400px;
+  text-align: center;
+} */
+
+p {
+  background-color: aqua;
+  padding-top: 0px;
+  display: inline;
+  margin-right: 20px;

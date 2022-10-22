@@ -1,0 +1,27 @@
+/* * {
+  font-size: large;
+  font-weight: 400;
+} */
+
+.prvi {
+  font-family: 'Playfair Display', serif;
+  
+
+}
+
+.drugi {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: oblique;
+}
+
+.treci {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.cetvrti {
+  font-family: "Audiowide", sans-serif;
+}
+
+.prvi q {
+  font-size: xx-large;
+}

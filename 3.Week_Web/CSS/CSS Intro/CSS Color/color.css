@@ -1,0 +1,40 @@
+.prvi {
+
+color: rgb(16, 53, 53);
+background-color: rgb(193, 193, 224);
+opacity: 50%;
+
+}
+
+.drugi {
+
+  color: beige;
+  background-color: rgb(15, 7, 23, 0.5);
+
+}
+
+.treci {
+
+color: #00d111;
+background-color: burlywood;
+
+}
+
+table {
+
+
+width: 30%;
+
+}
+
+#prvi {
+
+  background-color: rgb(79, 164, 239);
+
+}
+
+#drugi {
+
+background-color: hotpink;
+
+}
