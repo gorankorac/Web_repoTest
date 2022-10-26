@@ -1,0 +1,25 @@
+
+.box {
+  height: 150px;
+  width: 150px;
+  position: relative;
+}
+
+.box-red {
+  background: red;
+  z-index: 1;
+}
+
+.box-blue {
+  background: #00d5f1;
+  bottom: 80px;
+  left: 55px;
+  z-index: 2;
+}
+
+.box-green {
+  background: #30f100;
+  bottom: 145px;
+  left: 115px;
+  z-index: 3;
+}

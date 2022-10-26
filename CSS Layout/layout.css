@@ -14,5 +14,22 @@ position: absolute;
 right: 10px;
 top: 15px;
 
+}
+
+.image3 {
+
+position: absolute;
+bottom: 10px;
+left: 100px;
+
+}
+
+a {
+
+ background-color: aqua;
+ position: fixed;
+ bottom: 0px;
+ right: 0px;
+ 
 
 }

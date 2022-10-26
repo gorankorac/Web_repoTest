@@ -1,0 +1,31 @@
+.flexcontainer {
+
+/* display: flex; */
+
+}
+
+
+
+.prvi {
+
+width: 200px;
+height: 200px;
+background-color: aqua;
+
+}
+
+.drugi {
+
+  width: 200px;
+  height: 200px;
+  background-color: rgb(0, 255, 34);
+
+}
+
+.treci {
+
+  width: 200px;
+  height: 200px;
+  background-color: rgb(255, 0, 242);
+
+}
