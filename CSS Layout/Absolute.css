@@ -1,0 +1,40 @@
+.kuca {
+
+   display: flex;
+  justify-content: end;
+  border: 2px solid black;
+  position: relative;
+
+  }
+  
+  
+  
+  .prvi {
+  
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  right: 20px;
+  /* z-index: -1; */
+  
+  }
+  
+  .drugi {
+  
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 255, 34);
+    right: 50px;
+    /* z-index: -2; */
+  
+  }
+  
+  .treci {
+  
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 0, 242);
+    
+    /* z-index: -3; */
+  
+  }

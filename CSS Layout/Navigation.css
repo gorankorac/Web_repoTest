@@ -1,0 +1,25 @@
+.bar {
+
+  background-color: aqua;
+  width: 960px;
+  
+}
+
+li {
+
+display: inline;
+padding: 10px;
+
+
+
+}
+
+li a:hover {
+  background-color: rgb(230, 197, 202);
+}
+
+ul {
+
+
+
+}
