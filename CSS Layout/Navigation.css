@@ -2,7 +2,10 @@
 
   background-color: aqua;
   width: 960px;
-  
+  height: 45px;
+  text-align: end;
+  padding: 6px;
+  margin: 0 auto;
 }
 
 li {
@@ -19,6 +22,12 @@ li a:hover {
 }
 
 ul {
+
+
+
+}
+
+head {
 
 
 

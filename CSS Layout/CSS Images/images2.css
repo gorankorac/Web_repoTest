@@ -1,0 +1,35 @@
+img {
+
+   display: flex; 
+ /* height: 200px;
+width: 200px;  */
+
+}
+
+#jedan {
+
+height: 200px;
+float: left;
+
+}
+
+#dva {
+
+width: 200px;
+float: right;
+
+}
+
+#tri {
+
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+
+}
+
+.sl1 {
+
+/* float: right; */
+
+}
