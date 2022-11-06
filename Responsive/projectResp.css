@@ -6,19 +6,21 @@ background-size: cover;
 height: 500px;
 width: 100%x;
 
+
 }
 
 #corner {
 
   /* position: relative;   */
- top: 15px;
- left: 15px;
+ /* top: 15px; */
+ 
+ padding: 15px;
  font-weight: bolder;
  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  color: white;
  letter-spacing: 2px;
  /* width: 300px; */
- font-size: larger;
+ font-size: x-large;
  justify-content: center;
 
 
@@ -47,12 +49,17 @@ li {
   list-style-type: none;
   text-align: center;
   padding: 0 10px;
+  color: white;
+  font-family: ;
 }
 
 h1 {
 
 color: white;
 text-align: center;
+justify-content: center;
+padding-top: 100px;
+font-size: xx-large;
 
 }
 
@@ -62,7 +69,7 @@ border-radius: 8px;
 background: hsl(214, 71%, 49%);
 color: aliceblue;
 border-color: hsl(214, 71%, 49%);
-
+margin-top: 20px;
 }
 
 .vertical-center {
@@ -76,4 +83,38 @@ ul {
 
 display: flex;
 
+}
+
+.head h1 {
+
+  margin: auto;
+  
+
+}
+
+@media (min-width: 576px) {
+  
+  body {
+  
+  background-color: coral;
+  
+  }
+}
+
+@media (min-width: 768px) {
+  
+  body {
+  
+  background-color: rgb(168, 218, 165);
+  
+  }
+}
+
+@media (min-width: 1200px) {
+  
+  body {
+  
+  background-color: rgb(227, 209, 226);
+  
+  }
 }
