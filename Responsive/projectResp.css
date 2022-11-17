@@ -95,10 +95,12 @@ justify-content: center;
 }
 
 @media (min-width: 576px) {
+
   
   body {
   
   background-color: coral;
+
   
   }
 }
@@ -409,6 +411,8 @@ font-size:x-large
 
 display: flex;
 flex-direction: row;
+justify-content: center;
+align-items: center;
 
 
 }
@@ -422,9 +426,27 @@ width: 100%;
 
 .box-item1 {
 
-background-color: darkseagreen;
+background-color: rgb(125, 217, 64);
 width: 25%;
 height: 200px;
+display: flex; 
+flex-wrap: wrap;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-weight: bold;
+font-size: larger;
+color: white;
+gap: 1em;
+
+
+
+}
+
+.box-item1 > span {
+
+  font-size: large;
+  font-weight: 100;
 
 }
 
@@ -433,7 +455,25 @@ height: 200px;
   background-color: lightcoral;
   width: 25%;
   height: 200px;
+  display: flex; 
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: larger;
+  color: white;
+  gap: 1.5em; 
   
+  
+  }
+
+  .box-item2 > span > img {
+
+    
+   padding: 10px;
+    
+
   }
 
   .box-item3 {
@@ -441,6 +481,15 @@ height: 200px;
     background-color: rgb(67, 151, 236);
     width: 25%;
     height: 200px;
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+    gap: 1.5em;
     
   }
 
@@ -461,6 +510,93 @@ height: 200px;
   
 
   }
+
+  /* #in1, #in2, #in3 {
+
+    width: 20%;
+    height: 40px;
+    
+    
+  }
+
+  #in4 {
+
+    width: 61.4%;
+    height: 140px;
+    
+  }
+
+  .form1 {
+
+   display: flexbox;
+   flex-wrap: wrap; 
+   
+   align-items: center;
+   justify-content: center;
+   height: 250px;
+   
+    
+  } */
+
+  .f1 {
+
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   width: 80%;
+   height: 300px; 
+   align-items: center;
+   justify-content: center;
+   gap: 1%;
+   margin: 0 auto; 
+   justify-items: center;
+   /* margin-left: 9%; */
+   
+   
+
+  }
+
+  #in1, #in2, #in3 {
+
+    width: 25%; 
+    height: 40px;
+    margin: 0 0;
+    padding: 2px 2px;
+
+  }
+
+
+
+  /* #in4 {
+
+   display: flex;
+   width: 80%;
+   height: 150px;
+   align-items: center;
+   justify-content: center;
+   margin: 0 auto;
+
+  } */
+
+  #in4 {
+
+   width: 80%;
+   height: 150px; 
+   padding: 3px;
+   gap: ;
+   margin-top: 0px;
+  }
+
+  .submit {
+
+    
+    margin-right: 75%;
+    background-color: orange;
+    padding: 8px 12px;
+
+  }
+
+
 
 
 
