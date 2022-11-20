@@ -1,13 +1,26 @@
+@media (min-width: 1200px) {
+  
+  body {
+  
+  background-color: rgb(227, 209, 226);
+  
+  }
+
+
+
+
 .head {
 
 background-image: url(./images/banner3.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 
-height: 500px;
+height: 500px; 
 width: 100%x;
 
 }
+
+
  /* Gornji desni cosak */
 #corner {
 
@@ -94,7 +107,7 @@ justify-content: center;
 
 }
 
-@media (min-width: 576px) {
+/* @media (min-width: 576px) {
 
   
   body {
@@ -105,23 +118,9 @@ justify-content: center;
   }
 }
 
-@media (min-width: 768px) {
-  
-  body {
-  
-  background-color: rgb(168, 218, 165);
-  
-  }
-}
 
-@media (min-width: 1200px) {
-  
-  body {
-  
-  background-color: rgb(227, 209, 226);
-  
-  }
-}
+
+
 
 /* sredisnji deo sa slikom u sredini */
 
@@ -595,6 +594,12 @@ gap: 1em;
     padding: 8px 12px;
 
   }
+}
+
+
+
+  
+ 
 
 
 
