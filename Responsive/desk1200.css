@@ -1,17 +1,24 @@
+@media (min-width: 1200px) {
+  
+  body {
+  
+  background-color: white;
+  
+  }
 
 .head {
 
-background-image: url(./images/banner3.jpg);
-background-repeat: no-repeat;
-background-size: cover;
+ background-image: url(./images/banner3.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
 
-height: 550px; 
-width: 100%x;
+ height: 500px; 
+ width: 100%x;
 
 }
 
-
  /* Gornji desni cosak */
+
 #corner {
 
  padding: 15px;
@@ -64,13 +71,13 @@ align-items: center;
 
 h1 {
 
-color: white;
-text-align: center;
-justify-content: center;
-padding-top: 70px;
-font-size: xx-large;
-font-family: myFont2; 
-letter-spacing: 4PX;
+ color: white;
+ text-align: center;
+ justify-content: center;
+ padding-top: 70px;
+ font-size: xx-large;
+ font-family: myFont2; 
+ letter-spacing: 4PX;
 
 }
 
@@ -81,47 +88,32 @@ letter-spacing: 4PX;
 
 button {
 
-border-radius: 14px;
-background: hsl(214, 71%, 49%);
-color: aliceblue;
-border-color: hsl(214, 71%, 49%);
-margin-top: 5px;
-padding: 6PX;
+ border-radius: 14px;
+ background: hsl(214, 71%, 49%);
+ color: aliceblue;
+ border-color: hsl(214, 71%, 49%);
+ margin-top: 5px;
+ padding: 6PX;
 
 }
 
 .vertical-center {
 
-display: flex;
-justify-content: center;
+ display: flex;
+ justify-content: center;
 
 }
-
-/* @media (min-width: 576px) {
-
-  
-  body {
-  
-  background-color: coral;
-
-  
-  }
-}
-
-
-
-
 
 /* sredisnji deo sa slikom u sredini */
 
 .gridcontainer {
 
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-grid-template-rows: 60px 350px;
-background-color: white;
-justify-content: center;
-padding: 30px 250px;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ grid-template-rows: 60px 370px;
+ background-color: white;
+ justify-content: center;
+ padding: 30px 250px;
 
 }
 
@@ -132,10 +124,10 @@ padding: 30px 250px;
 
 .grid-red1 > h2 {
 
-font-size: xx-large;
-margin-bottom: 0px;
-text-align: center;
-margin-top: 0px;
+ font-size: x-large;
+ margin-bottom: 0px;
+ text-align: center;
+ margin-top: 0px;
 }
 
 .grid-red2 {
@@ -148,27 +140,44 @@ margin-top: 0px;
   list-style-image: url(./images/arrow_bullet.png);
   
   padding: 30px;
-  padding-top: 30px;
+  padding-top: 10px;
   
+}
+
+.grid-red22 {
+
+  padding: 5px;
+  padding-left: 15px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+
 }
 
 .grid-red2 > h3 {
 
 color: rgb(10, 180, 236);
 margin-top: 0px;
+margin-bottom: 2px;
+
+}
+
+.grid-red2 > p {
+
+  margin-bottom: 0px;
 
 }
 
 .grid-red3 {
 
-line-height: 30px;
+line-height: 20px;
 
 }
 
 .grid-red5 {
 
- padding: 30px;
+ padding: 10px;
  justify-items: start;
+ padding-left: 20px;
  
 }
 
@@ -179,26 +188,33 @@ margin-top: 0px;
 
 }
 
+.parag {
+
+  margin: 0px;
+  margin-bottom: 5px;
+
+}
+
 .grid-red4 {
 
-padding-top: 30px;
-/* border-top: 1px solid black; */
+padding-top: 10px;
 
 }
 
 .grid-red4 > img  {
 
   width: 100%;
-  height: 350px;
+  height: 320px;
 
 }
 
 .grid-red7 {
 
-  line-height: 30px;
+  line-height: 20px;
   list-style-image: url(./images/arrow_bullet.png);
   justify-content: start;
   padding-left: 20px;
+  margin-top: 0px;
   
   }
 
@@ -206,18 +222,18 @@ padding-top: 30px;
 
 .card {
 
-display: flex;
-background-color: white;
-justify-content: space-around;
-height: 250px;
-padding: 20px;
-gap: 20px;
+ display: flex;
+ background-color: white;
+ justify-content: space-around;
+ height: 250px;
+ padding: 20px;
+ gap: 20px;
 
 }
 
 .card-item1, .card-item2, .card-item3  {
 
-background-color:  rgb(140, 209, 235);
+ background-color:  rgb(140, 209, 235);
 
 
 }
@@ -300,7 +316,6 @@ padding-top: 25px;
 
 display: inline;
 
-
 }
 
 .avatar > h4 > ul {
@@ -318,7 +333,9 @@ padding-right: 70px;
 
 
 }
+
  /* Kartica u sredini */
+
 .avatar2 {
 
 display: flex;
@@ -333,8 +350,7 @@ padding-top: 25px;
 .avatar2 > h4 > ul > li {
 
 display: inline;
-    
-    
+       
 }
 
 .card > .card-item2 > p {
@@ -371,7 +387,7 @@ padding-top: 25px;
 display: inline;
       
       
-    }
+  }
   
 .card > .card-item3 > p {
   
@@ -393,7 +409,7 @@ color: white;
 .opet > h2 {
 
 text-align: center;
-font-size:xx-large;
+font-size:x-large;
 margin-bottom: 5px;
 
 }
@@ -431,8 +447,6 @@ font-size: larger;
 color: white;
 gap: 1em;
 
-
-
 }
 
 .box-item1 > span {
@@ -465,7 +479,6 @@ gap: 1em;
     
    padding: 10px;
     
-
   }
 
   .box-item3 {
@@ -498,37 +511,9 @@ gap: 1em;
 
   .box-item4 > img {
 
-  border-image-slice: 30%;
+   border-image-slice: 30%;
   
-
   }
-
-  /* #in1, #in2, #in3 {
-
-    width: 20%;
-    height: 40px;
-    
-    
-  }
-
-  #in4 {
-
-    width: 61.4%;
-    height: 140px;
-    
-  }
-
-  .form1 {
-
-   display: flexbox;
-   flex-wrap: wrap; 
-   
-   align-items: center;
-   justify-content: center;
-   height: 250px;
-   
-    
-  } */
 
   .f1 {
 
@@ -544,8 +529,6 @@ gap: 1em;
    justify-items: center;
    /* margin-left: 9%; */
    
-   
-
   }
 
   #in1, #in2, #in3 {
@@ -558,36 +541,22 @@ gap: 1em;
   }
 
 
-
-  /* #in4 {
-
-   display: flex;
-   width: 80%;
-   height: 150px;
-   align-items: center;
-   justify-content: center;
-   margin: 0 auto;
-
-  } */
-
   #in4 {
 
    width: 80%;
    height: 150px; 
    padding: 3px;
-   gap: ;
+   
    margin-top: 0px;
   }
 
   .submit {
 
-    
     margin-right: 75%;
     background-color: orange;
     padding: 8px 12px;
 
   }
-
 
 .border {
   width: 100%;
@@ -598,7 +567,7 @@ gap: 1em;
 
 .line {
   height: 2px;
-  width: 210px;
+  width: 100px;
   border-top: 1px solid black;
 }
 
@@ -618,10 +587,9 @@ gap: 1em;
 
 .naslov > h2 {
 
-  font-size: xx-large;
+  font-size: x-large;
   margin-bottom: 5px;
   
-
 }
 
 .crta {
@@ -629,29 +597,12 @@ gap: 1em;
 padding: 20px;
 padding-bottom: 40px;
 
-
 }
 
 .crta > h2 {
 
-  font-size: xx-large;
+  font-size: x-large;
   margin-bottom: 5px;
   
-
 }
-
-
-
-
-  
- 
-
-
-
-
-
-
-
-
-
-
+}
