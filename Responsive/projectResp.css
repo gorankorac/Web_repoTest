@@ -15,7 +15,7 @@ background-image: url(./images/banner3.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 
-height: 500px; 
+height: 600px; 
 width: 100%x;
 
 }
@@ -128,23 +128,24 @@ justify-content: center;
 
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
-grid-template-rows: 100px 350px;
+grid-template-rows: 60px 350px;
 background-color: white;
 justify-content: center;
-padding: 50px 250px;
+padding: 30px 250px;
 
 }
 
 .grid-red1 {
   grid-column: 1 / 4;
-  margin: auto;
+  margin: 0px;
 }
 
 .grid-red1 > h2 {
 
 font-size: xx-large;
 margin-bottom: 0px;
-
+text-align: center;
+margin-top: 0px;
 }
 
 .grid-red2 {
@@ -191,7 +192,7 @@ margin-top: 0px;
 .grid-red4 {
 
 padding-top: 30px;
-border-top: 1px solid black;
+/* border-top: 1px solid black; */
 
 }
 
@@ -594,6 +595,27 @@ gap: 1em;
     padding: 8px 12px;
 
   }
+}
+
+.border {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  height: 2px;
+  width: 210px;
+  border-top: 1px solid black;
+}
+
+.square {
+  height: 15px;
+  width: 15px;
+  border: 2px solid black;
+  transform: rotate(50deg);
+  margin: 0 10px;
 }
 
 
