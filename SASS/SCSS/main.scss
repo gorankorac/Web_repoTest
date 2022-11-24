@@ -1,0 +1,81 @@
+@import 'variables';
+
+@import 'mixin';
+
+.style {
+
+  color: aqua;
+  background-color: rgb(32, 69, 205);
+  width: 75%;
+  height: 500px;
+
+}
+
+.f {
+
+font-style: italic;
+
+}
+
+  $font-stack : Helvetica, sans-serif;
+  $primary-color : #333;
+
+
+.klasa {
+    ul {
+    margin: 25px;
+    padding: 12px;
+    list-style: none;
+   }
+    li {
+    // display: inline-block;
+    list-style: disc;
+    color: blueviolet;
+    padding: 8px;
+    text-decoration: wavy;
+    font-weight: bold;
+    background-color: $back;
+  }
+  }
+
+  @mixin parabelum {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    border: 3px solid blue;
+  }
+
+  p {
+
+    @include parabelum;
+    background-color: rgb(18, 26, 18);
+
+  }
+
+  @mixin darkShadow {
+
+    text-shadow: 4px 4px whitesmoke;
+    
+  }
+
+  .sh {
+
+    @include darkShadow;
+
+  }
+
+  .imp {
+
+    width: 50%;
+    height: 250px;
+    background-color: $jon;
+
+  }
+
+   .photo {
+
+     width: 50%;
+     height: 300px;
+     @include photo;
+
+   }
