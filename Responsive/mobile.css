@@ -1,17 +1,14 @@
 
 
-  @media (min-width: 320px) { 
+  @media screen and (max-width: 320px) { 
 
-    nav {
-
-      background-color: aqua;
-
-    }
+   
 
     body {
   
-      background-color: rgb(229, 225, 17);
-      
+      background-color: white;
+      margin: auto;
+
       }
     
     .head {
@@ -20,11 +17,11 @@
      background-repeat: no-repeat;
      background-size: cover;
     
-     height: 300px; 
+     height: 200px; 
      width: 60%x;
     
     }
-    
+
      /* Gornji desni cosak */
     
     #corner {
@@ -32,40 +29,51 @@
      padding: 15px;
      font-weight: bolder;
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-     color: white;
+     color: black;
      letter-spacing: 2px;
      
      font-size: x-large;
      justify-content: center;
+     text-align: center;
+     
     
     }
     
     .build {
     
       color: darkorange;
-      border: 1px solid white;
+      border: 1px solid black;
       border-top: px;
       border-right: none;
       border-left: px;
+      
     }
     
     nav {
     
     display: flex;
-    justify-content: space-between;
+    
+    justify-content: center;
     margin: 0;
     align-items: center;
+    background-color: lightskyblue;
     
+    }
+
+    nav > ul {
+
+      padding-left: 0px;
+
     }
     
     /* navigacija desni deo imena */
     
     .jedan {
-      display: inline-block;
+      display: block;
       list-style-type: none;
       text-align: center;
-      padding: 10px 15px;
-      margin-right: 15px;
+      padding: 5px 5px;
+      margin-right: 0px;
       color: white;
       font-family: myFont;
       font-size: small;
@@ -83,7 +91,7 @@
      text-align: center;
      justify-content: center;
      padding-top: 70px;
-     font-size: xx-large;
+     font-size: medium;
      font-family: myFont2; 
      letter-spacing: 4PX;
     
@@ -115,16 +123,16 @@
     .gridcontainer {
 
       display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 60px 350px 250px;
+      grid-template-columns: 1fr;
+      grid-template-rows: 60px 250px 350px 260px;
       background-color: white;
       justify-content: center;
-      padding: 30px 50px;
+      padding: 30px 20px;
      
      }
      
      .grid-red1 {
-       grid-column: 1 / 4;
+       grid-column: 1 / 2;
        margin: 0px;
      }
      
@@ -145,7 +153,7 @@
      
        list-style-image: url(./images/arrow_bullet.png);
        
-       padding: 30px;
+       padding: 20px;
        padding-top: 10px;
        
      }
@@ -163,7 +171,7 @@
      
      color: rgb(10, 180, 236);
      margin-top: 0px;
-     margin-bottom: 2px;
+     margin-bottom: 0px;
      
      }
      
@@ -175,7 +183,7 @@
      
      .grid-red3 {
      
-     line-height: 30px;
+     line-height: 15px;
      
      }
      
@@ -183,7 +191,7 @@
      
       padding: 10px;
       justify-items: start;
-      padding-left: 20px;
+      padding-left: 10px;
       
      }
      
@@ -203,21 +211,21 @@
      
      .grid-red4 {
      
-      grid-column: 2 / 4;
+      grid-column: 1 / 3;
       padding-top: 10px;
      
      }
      
      .grid-red4 > img  {
      
-       width: 60%;
-       height: 250px;
+       width: 100%;
+       height: 320px;
      
      }
      
      .grid-red7 {
      
-       line-height: 30px;
+       line-height: 15px;
        list-style-image: url(./images/arrow_bullet.png);
        justify-content: start;
        padding-left: 20px;
@@ -230,21 +238,22 @@
 .card {
 
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   flex-direction: row;
   background-color: white;
   justify-content: flex-start;
   /* align-items: flex-end; */
   height: 600px;
-  padding: 20px;
-  gap: 30px;
+  padding: 10px;
+  gap: 20px;
   
   }
   
   .card-item1, .card-item2, .card-item3  {
   
-  background-color:  rgb(140, 209, 235);
-  width: 45%;
+  background-color:  lightskyblue;
+  width: 100%;
+  height: 200px;
 
   }
 
@@ -254,8 +263,8 @@
     height: 100px;
     overflow: hidden;
     border-radius: 100%;
-    margin-left: 30px;
-    margin-top: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
       
   }
   
@@ -275,20 +284,20 @@
     height: 100px;
     overflow: hidden;
     border-radius: 100%;
-    margin-left: 30px;
-    margin-top: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
   
   }
   
-  .card-item1 > h4 {
+  /* .card-item1 > h4 {
   
    text-align: center;
    border-top: 0px;
    margin-top: 0px;
-   padding-left: 70px;
+   padding-left: 00px;
    
   
-  }
+  } */
   
   .selly {
   
@@ -296,8 +305,8 @@
     height: 100px;
     overflow: hidden;
     border-radius: 100%;
-    margin-left: 30px;
-    margin-top: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
   
   }
   
@@ -315,10 +324,10 @@
   
   display: flex;
   
-  gap: 40px;
+  gap: 20px;
   flex-wrap: wrap;
   flex-direction: row;
-  padding-top: 25px;
+  padding-top: 5px;
   
   }
   
@@ -339,8 +348,8 @@
   .card > .card-item1 > p {
   
   color: white;
-  padding-left: 30px;
-  padding-right: 70px;
+  padding-left: 10px;
+  padding-right: 10px;
   
   
   }
@@ -349,10 +358,10 @@
   
   display: flex;
     
-  gap: 40px;
-  flex-wrap: wrap;
+  gap: 20px;
+  flex-wrap: wrap; 
   flex-direction: row;
-  padding-top: 25px;
+  padding-top: 5px;
     
   }
   
@@ -366,8 +375,8 @@
   .card > .card-item2 > p {
   
   color: white;
-  padding-left: 30px;
-  padding-right: 70px;
+  padding-left: 10px;
+  padding-right: 10px;
         
         
     }
@@ -385,10 +394,10 @@
   
   display: flex;
       
-  gap: 40px;
+  gap: 20px;
   flex-wrap: wrap;
   flex-direction: row;
-  padding-top: 25px;
+  padding-top: 5px;
       
   }
     
@@ -402,8 +411,8 @@
   .card > .card-item3 > p {
     
   color: white;
-  padding-left: 30px;
-  padding-right: 70px;
+  padding-left: 10px;
+  padding-right: 10px;
           
   }
     
@@ -419,7 +428,7 @@
 .opet > h2 {
 
   text-align: center;
-  font-size:x-large;
+  font-size: large;
   margin-bottom: 5px;
   margin-top: 50px;
   
@@ -441,7 +450,6 @@
   
   width: 100%;
   
-  
   }
   
   .box-item1 {
@@ -455,7 +463,7 @@
   justify-content: center;
   align-items: center;
   font-weight: bold;
-  font-size: larger;
+  font-size: medium;
   color: white;
   gap: 1em;
   
@@ -465,8 +473,8 @@
   
   .box-item1 > span {
   
-    font-size: large;
-    font-weight: 100;
+    font-size: medium;
+    font-weight: 50px;
   
   }
   
@@ -481,7 +489,7 @@
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    font-size: larger;
+    font-size: medium;
     color: white;
     gap: 1.5em; 
     
@@ -491,7 +499,7 @@
     .box-item2 > span > img {
   
       
-     padding: 10px;
+     padding: 5px;
       
   
     }
@@ -507,7 +515,7 @@
       justify-content: center;
       align-items: center;
       font-weight: bold;
-      font-size: larger;
+      font-size: medium;
       color: white;
       gap: 1.5em;
       
@@ -527,6 +535,7 @@
     .box-item4 > img {
   
     border-image-slice: 30%;
+    width: 85%;
     
   
     }
@@ -563,11 +572,11 @@
      display: flex;
      flex-wrap: wrap;
      flex-direction: row;
-     width: 80%;
+     width: 100%;
      height: 300px; 
      align-items: center;
      justify-content: center;
-     gap: 1%;
+     gap: 0.5%;
      margin: 0 auto; 
      justify-items: center;
      /* margin-left: 9%; */
@@ -581,20 +590,18 @@
       width: 25%; 
       height: 40px;
       margin: 0 0;
-      padding: 2px 2px;
-  
+      padding: 0px 0px;
+      
     }
   
-  
-  
-  
+
     #in4 {
   
      width: 80%;
      height: 150px; 
-     padding: 3px;
+     padding: 1px;
      /* gap: ; */
-     margin-top: 0px;
+     margin-top: 1px;
     }
   
     .submit {
@@ -616,7 +623,7 @@
   
   .line {
     height: 2px;
-    width: 80px;
+    width: 40px;
     border-top: 1px solid black;
   }
   
@@ -636,7 +643,7 @@
   
   .naslov > h2 {
   
-    font-size: x-large;
+    font-size: large;
     margin-bottom: 5px;
     
   
@@ -644,15 +651,15 @@
   
   .crta {
   
-  padding: 20px;
-  padding-bottom: 40px;
+  padding: 0px;
+  padding-bottom: 5px;
   
   
   }
   
   .crta > h2 {
   
-    font-size: xx-large;
+    font-size: large;
     margin-bottom: 5px;
     
   

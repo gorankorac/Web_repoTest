@@ -1,10 +1,11 @@
 
 
-  @media (min-width: 768px) { 
+  @media screen and (max-width: 768px) { 
 
     body {
   
       background-color: white;
+      
       
       }
     
@@ -564,7 +565,7 @@
      display: flex;
      flex-wrap: wrap;
      flex-direction: row;
-     width: 80%;
+     width: 85%;
      height: 300px; 
      align-items: center;
      justify-content: center;
@@ -605,7 +606,7 @@
      height: 150px; 
      padding: 3px;
      gap: ;
-     margin-top: 0px;
+     margin-top: 2px;
     }
   
     .submit {
