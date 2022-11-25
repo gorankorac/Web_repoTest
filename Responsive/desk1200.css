@@ -2,11 +2,24 @@
   
   body {
   
-  background-color: rgb(235, 50, 50);
+  background-color: white;
   
   }
 
-.head {
+  .hat {
+
+  background-image: url(./images/banner3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  height: 500px; 
+  width: 100%x;  
+
+
+
+  }
+
+/* .head {
 
  background-image: url(./images/banner3.jpg);
  background-repeat: no-repeat;
@@ -15,7 +28,7 @@
  height: 500px; 
  width: 100%x;
 
-}
+} */
 
  /* Gornji desni cosak */
 
@@ -35,13 +48,13 @@
 .build {
 
   color: darkorange;
-  border: 1px solid white;
+  border: 3px solid white;
   border-top: px;
   border-right: none;
   border-left: px;
 }
 
-nav {
+.hop {
 
 display: flex;
 justify-content: space-between;
@@ -521,10 +534,10 @@ gap: 1em;
    flex-wrap: wrap;
    flex-direction: row;
    width: 80%;
-   height: 300px; 
+   height: 320px; 
    align-items: center;
    justify-content: center;
-   gap: 1%;
+   gap: 0.5%;
    margin: 0 auto; 
    justify-items: center;
    /* margin-left: 9%; */
@@ -536,17 +549,17 @@ gap: 1em;
     width: 25%; 
     height: 40px;
     margin: 0 0;
-    padding: 2px 2px;
+    padding: 0px 0px;
 
   }
 
 
   #in4 {
 
-   width: 80%;
+   width: 78%;
    height: 150px; 
    padding: 3px;
-   
+   padding-left: 0px;
    margin-top: 0px;
   }
 
