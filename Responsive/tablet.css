@@ -1,38 +1,26 @@
 
 
-  @media screen and (max-width: 768px) { 
+@media screen and (max-width: 768px) { 
 
-    body {
+body {
   
-      background-color: white;
-      
-      
-      }
+    background-color: white;
+          
+  }
 
-    .hat {
+.hat {
 
-      background-image: url(./images/banner3.jpg);
-      background-repeat: no-repeat;
-      background-size: cover;
+    background-image: url(./images/banner3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     
       height: 500px; 
       width: 80%px; 
       }
     
-    /* .head { */
-    
-     /* background-image: url(./images/banner3.jpg);
-     background-repeat: no-repeat;
-     background-size: cover;
-    
-     height: 500px; 
-     width: 80%px;
-    
-    } */
-    
      /* Gornji desni cosak */
     
-    #corner {
+#corner {
     
      padding: 25px;
      font-weight: bolder;
@@ -45,7 +33,7 @@
     
     }
     
-    .build {
+.build {
     
       color: darkorange;
       border: 3px solid white;
@@ -54,7 +42,7 @@
       border-left: px;
     }
     
-    .hop {
+.hop {
     
     display: flex;
     justify-content: space-between;
@@ -65,7 +53,7 @@
     
     /* navigacija desni deo imena */
     
-    .jedan {
+.jedan {
       display: inline-block;
       list-style-type: none;
       text-align: center;
@@ -82,7 +70,7 @@
       src: url(./fonts/Roboto-Medium.ttf);
     }
     
-    h1 {
+h1 {
     
      color: white;
      text-align: center;
@@ -99,7 +87,7 @@
       src: url(./fonts/Roboto-Light.ttf);
     }
     
-    button {
+button {
     
      border-radius: 14px;
      background: hsl(214, 71%, 49%);
@@ -110,14 +98,14 @@
     
     }
     
-    .vertical-center {
+.vertical-center {
     
      display: flex;
      justify-content: center;
     
     }
 
-    .gridcontainer {
+.gridcontainer {
 
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -128,12 +116,12 @@
      
      }
      
-     .grid-red1 {
+.grid-red1 {
        grid-column: 1 / 4;
        margin: 0px;
      }
      
-     .grid-red1 > h2 {
+.grid-red1 > h2 {
      
       font-size: x-large;
       margin-bottom: 0px;
@@ -141,7 +129,7 @@
       margin-top: 0px;
      }
      
-     .grid-red2 {
+.grid-red2 {
      
        grid-column: 1 / 1;
        margin: 0;
@@ -155,7 +143,7 @@
        
      }
      
-     .grid-red22 {
+.grid-red22 {
      
        padding: 5px;
        padding-left: 15px;
@@ -164,7 +152,7 @@
      
      }
      
-     .grid-red2 > h3 {
+.grid-red2 > h3 {
      
      color: rgb(10, 180, 236);
      margin-top: 0px;
@@ -172,19 +160,19 @@
      
      }
      
-     .grid-red2 > p {
+.grid-red2 > p {
      
        margin-bottom: 0px;
      
      }
      
-     .grid-red3 {
+.grid-red3 {
      
      line-height: 30px;
      
      }
      
-     .grid-red5 {
+.grid-red5 {
      
       padding: 10px;
       justify-items: start;
@@ -192,35 +180,35 @@
       
      }
      
-     .grid-red5 > h3 {
+.grid-red5 > h3 {
      
      color: rgb(9, 182, 240);  
      margin-top: 0px;
      
      }
      
-     .parag {
+.parag {
      
        margin: 0px;
        margin-bottom: 5px;
        
      }
      
-     .grid-red4 {
+.grid-red4 {
      
       grid-column: 2 / 4;
       padding-top: 10px;
      
      }
      
-     .grid-red4 > img  {
+.grid-red4 > img  {
      
        width: 100%;
        height: 320px;
      
      }
      
-     .grid-red7 {
+.grid-red7 {
      
        line-height: 30px;
        list-style-image: url(./images/arrow_bullet.png);
@@ -247,20 +235,20 @@
   
   }
   
-  .card-item1, .card-item2, .card-item3  {
+.card-item1, .card-item2, .card-item3  {
   
   background-color:  rgb(140, 209, 235);
   width: 45%;
 
   }
 
-  .card-item3 {
+.card-item3 {
 
   
 
   }
   
-  .Jenny {
+.Jenny {
   
     width: 100px;
     height: 100px;
@@ -271,7 +259,7 @@
       
   }
   
-  .card-item2 > h4 {
+.card-item2 > h4 {
   
    text-align: center;
    border-top: 0px;
@@ -281,7 +269,7 @@
   
   }
   
-  .willy {
+.willy {
   
     width: 100px;
     height: 100px;
@@ -292,16 +280,15 @@
   
   }
   
-  .card-item1 > h4 {
+.card-item1 > h4 {
   
    text-align: center;
    border-top: 0px;
    margin-top: 0px;
    padding-left: 70px;
-   
-  
+    
   }
-  
+
   .selly {
   
     width: 100px;
@@ -313,7 +300,7 @@
   
   }
   
-  .card-item3 > h4 {
+.card-item3 > h4 {
   
     text-align: center;
     border-top: 0px;
@@ -323,7 +310,7 @@
   
   }
   
-  .avatar {
+.avatar {
   
   display: flex;
   
@@ -334,7 +321,7 @@
   
   }
   
-  .avatar > h4 > ul > li {
+.avatar > h4 > ul > li {
   
   display: inline;
   
@@ -348,7 +335,7 @@
   
   }
   
-  .card > .card-item1 > p {
+.card > .card-item1 > p {
   
   color: white;
   padding-left: 30px;
@@ -357,7 +344,7 @@
   
   }
    /* Kartica u sredini */
-  .avatar2 {
+.avatar2 {
   
   display: flex;
     
@@ -368,14 +355,14 @@
     
   }
   
-  .avatar2 > h4 > ul > li {
+.avatar2 > h4 > ul > li {
   
   display: inline;
       
       
   }
   
-  .card > .card-item2 > p {
+.card > .card-item2 > p {
   
   color: white;
   padding-left: 30px;
@@ -384,7 +371,7 @@
         
     }
   
-  .avatar2 > h4 > ul {
+.avatar2 > h4 > ul {
   
   padding-left: 0px;
   color: white;
@@ -393,7 +380,7 @@
   
      /* Kartica na kraju */
   
-  .avatar3 {
+.avatar3 {
   
   display: flex;
       
@@ -404,14 +391,14 @@
       
   }
     
-  .avatar3 > h4 > ul > li {
+.avatar3 > h4 > ul > li {
     
   display: inline;
         
         
       }
     
-  .card > .card-item3 > p {
+.card > .card-item3 > p {
     
   color: white;
   padding-left: 30px;
@@ -419,7 +406,7 @@
           
   }
     
-  .avatar3 > h4 > ul {
+.avatar3 > h4 > ul {
     
   padding-left: 0px;
   color: white;
@@ -449,14 +436,14 @@
   
   }
   
-  iframe {
+iframe {
   
   width: 100%;
   
   
   }
   
-  .box-item1 {
+.box-item1 {
   
   background-color: rgb(125, 217, 64);
   width: 50%;
@@ -475,14 +462,14 @@
   
   }
   
-  .box-item1 > span {
+.box-item1 > span {
   
     font-size: large;
     font-weight: 100;
   
   }
   
-  .box-item2 {
+.box-item2 {
   
     background-color: lightcoral;
     width: 50%;
@@ -500,7 +487,7 @@
     
     }
   
-    .box-item2 > span > img {
+.box-item2 > span > img {
   
       
      padding: 10px;
@@ -508,7 +495,7 @@
   
     }
   
-    .box-item3 {
+.box-item3 {
   
       background-color: rgb(67, 151, 236);
       width: 50%;
@@ -525,7 +512,7 @@
       
     }
   
-    .box-item4 {
+.box-item4 {
   
         background-color: rgb(179, 208, 236);
         width: 50%;
@@ -536,41 +523,14 @@
         
     }
   
-    .box-item4 > img {
+.box-item4 > img {
   
     border-image-slice: 30%;
     
   
     }
   
-    /* #in1, #in2, #in3 {
-  
-      width: 20%;
-      height: 40px;
-      
-      
-    }
-  
-    #in4 {
-  
-      width: 61.4%;
-      height: 140px;
-      
-    }
-  
-    .form1 {
-  
-     display: flexbox;
-     flex-wrap: wrap; 
-     
-     align-items: center;
-     justify-content: center;
-     height: 250px;
-     
-      
-    } */
-  
-    .f1 {
+.f1 {
   
      display: flex;
      flex-wrap: wrap;
@@ -584,11 +544,9 @@
      justify-items: center;
      /* margin-left: 9%; */
      
-     
-  
     }
   
-    #in1, #in2, #in3 {
+#in1, #in2, #in3 {
   
       width: 25%; 
       height: 40px;
@@ -597,20 +555,7 @@
   
     }
   
-  
-  
-    /* #in4 {
-  
-     display: flex;
-     width: 80%;
-     height: 150px;
-     align-items: center;
-     justify-content: center;
-     margin: 0 auto;
-  
-    } */
-  
-    #in4 {
+#in4 {
   
      width: 80%;
      height: 150px; 
@@ -619,30 +564,28 @@
      margin-top: 2px;
     }
   
-    .submit {
-  
-      
+.submit {
+   
       margin-right: 75%;
       background-color: orange;
       padding: 8px 12px;
   
     }
   
-  
-  .border {
+.border {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
-  .line {
+.line {
     height: 2px;
     width: 80px;
     border-top: 1px solid black;
   }
   
-  .square {
+.square {
     height: 15px;
     width: 15px;
     border: 2px solid black;
@@ -650,13 +593,13 @@
     margin: 0 10px;
   }
   
-  .naslov {
+.naslov {
   
     padding-bottom: 15px;
   
   }
   
-  .naslov > h2 {
+.naslov > h2 {
   
     font-size: x-large;
     margin-bottom: 5px;
@@ -664,7 +607,7 @@
   
   }
   
-  .crta {
+.crta {
   
   padding: 20px;
   padding-bottom: 40px;
@@ -672,7 +615,7 @@
   
   }
   
-  .crta > h2 {
+.crta > h2 {
   
     font-size: xx-large;
     margin-bottom: 5px;

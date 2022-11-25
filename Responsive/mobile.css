@@ -16,9 +16,9 @@
      background-image: url(./images/banner3.jpg);
      background-repeat: no-repeat;
      background-size: cover;
+     padding-top: 20px;
+     height: 250px; 
     
-     height: 200px; 
-     width: 60%x;
     
     }
 
@@ -35,7 +35,7 @@
      font-size: x-large;
      justify-content: center;
      text-align: center;
-     
+     width: 100%;
     
     }
     
@@ -48,13 +48,23 @@
       border-left: px;
       
     }
+     .hop {
+
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 0;
+      align-items: center;
+      background-color: white;
+      
+      } 
     
     nav {
     
     display: flex;
-    
-    justify-content: center;
-    margin: 0;
+    width: 100%;
+    justify-content: space-around;
+    margin: 25px;
     align-items: center;
     background-color: lightskyblue;
     
@@ -274,8 +284,7 @@
    border-top: 0px;
    margin-top: 0px;
    padding-left: 70px;
-   
-  
+    
   }
   
   .willy {
@@ -288,16 +297,6 @@
     margin-top: 10px;
   
   }
-  
-  /* .card-item1 > h4 {
-  
-   text-align: center;
-   border-top: 0px;
-   margin-top: 0px;
-   padding-left: 00px;
-   
-  
-  } */
   
   .selly {
   
@@ -316,8 +315,7 @@
     border-top: 0px;
     margin-top: 0px;
     padding-left: 70px;
-    
-  
+     
   }
   
   .avatar {
@@ -334,8 +332,7 @@
   .avatar > h4 > ul > li {
   
   display: inline;
-  
-  
+   
   }
   
   .avatar > h4 > ul {
@@ -351,9 +348,10 @@
   padding-left: 10px;
   padding-right: 10px;
   
-  
   }
+
    /* Kartica u sredini */
+
   .avatar2 {
   
   display: flex;
@@ -368,8 +366,7 @@
   .avatar2 > h4 > ul > li {
   
   display: inline;
-      
-      
+           
   }
   
   .card > .card-item2 > p {
@@ -377,14 +374,13 @@
   color: white;
   padding-left: 10px;
   padding-right: 10px;
-        
-        
+               
     }
   
   .avatar2 > h4 > ul {
   
-  padding-left: 0px;
-  color: white;
+   padding-left: 0px;
+   color: white;
           
   }
   
@@ -404,9 +400,8 @@
   .avatar3 > h4 > ul > li {
     
   display: inline;
-        
-        
-      }
+             
+  }
     
   .card > .card-item3 > p {
     
@@ -467,8 +462,6 @@
   color: white;
   gap: 1em;
   
-  
-  
   }
   
   .box-item1 > span {
@@ -493,15 +486,12 @@
     color: white;
     gap: 1.5em; 
     
-    
     }
   
     .box-item2 > span > img {
-  
-      
+   
      padding: 5px;
       
-  
     }
   
     .box-item3 {
@@ -537,15 +527,6 @@
     border-image-slice: 30%;
     width: 85%;
     
-  
-    }
-  
-    /* #in1, #in2, #in3 {
-  
-      width: 20%;
-      height: 40px;
-      
-      
     }
   
     #in4 {
@@ -563,9 +544,8 @@
      align-items: center;
      justify-content: center;
      height: 250px;
-     
       
-    } */
+    } 
   
     .f1 {
   
@@ -581,8 +561,6 @@
      justify-items: center;
      /* margin-left: 9%; */
      
-     
-  
     }
   
     #in1, #in2, #in3 {
@@ -594,7 +572,6 @@
       
     }
   
-
     #in4 {
   
      width: 80%;
@@ -605,15 +582,13 @@
     }
   
     .submit {
-  
-      
+     
       margin-right: 75%;
       background-color: orange;
       padding: 8px 12px;
   
     }
-  
-  
+   
   .border {
     width: 100%;
     display: flex;
@@ -645,24 +620,21 @@
   
     font-size: large;
     margin-bottom: 5px;
-    
-  
+     
   }
   
   .crta {
   
   padding: 0px;
   padding-bottom: 5px;
-  
-  
+    
   }
   
   .crta > h2 {
   
     font-size: large;
     margin-bottom: 5px;
-    
-  
+     
   }
   
 
