@@ -1,0 +1,49 @@
+.style {
+  color: aqua;
+  background-color: rgb(32, 69, 205);
+  width: 75%;
+  height: 500px;
+}
+
+.f {
+  font-style: italic;
+}
+
+.klasa ul {
+  margin: 25px;
+  padding: 12px;
+  list-style: none;
+}
+.klasa li {
+  list-style: disc;
+  color: blueviolet;
+  padding: 8px;
+  -webkit-text-decoration: wavy;
+          text-decoration: wavy;
+  font-weight: bold;
+  background-color: gold;
+}
+
+p {
+  color: rgb(51, 255, 0);
+  font-size: 20px;
+  font-weight: bold;
+  border: 3px solid blue;
+  background-color: rgb(18, 26, 18);
+}
+
+.sh {
+  text-shadow: 4px 4px whitesmoke;
+}
+
+.imp {
+  width: 50%;
+  height: 250px;
+  background-color: pink;
+}
+
+.photo {
+  width: 50%;
+  height: 300px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSanzGcuGuUWHuEL6mDsWUnuVFnuNhzTQ9_Ww&usqp=CAU);
+}/*# sourceMappingURL=main.css.map */

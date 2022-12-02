@@ -1,0 +1,55 @@
+
+.navbar-brand {
+
+  font-size: smaller;
+  color: white;
+  font-weight: bold;
+
+}
+
+.btn {
+
+  color: white;
+  font-size: smaller;
+  font-weight: bold;
+
+}
+
+ .box1 {
+
+  height: 300px;
+
+} 
+
+ .box1 > img {
+
+  margin-top: px;
+  padding-left: px;
+  padding-bottom: px;
+
+}  
+
+.border {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.line {
+  height: 2px;
+  width: 70px;
+  border-top: 2px solid white;
+}
+
+.square {
+  height: 15px;
+  width: 15px;
+  border: 2px solid white;
+  transform: rotate(50deg);
+  margin: 0 10px;
+}
+
+/*# sourceMappingURL=main.css.map */
