@@ -37,11 +37,11 @@ var btn = document.querySelector('.btn');
 var p = document.querySelector('.loko');
 var ip = document.querySelector('.ip');
 
-var randomIP = (Math.floor(Math.random() * 255) + 1)+"."+(Math.floor(Math.random() * 255))+"."+(Math.floor(Math.random() * 255))+"."+(Math.floor(Math.random() * 255));
 
 var xhr = new XMLHttpRequest();
 
 function getXML() {
+  var randomIP = (Math.floor(Math.random() * 255) + 1)+"."+(Math.floor(Math.random() * 255))+"."+(Math.floor(Math.random() * 255))+"."+(Math.floor(Math.random() * 255));
 xhr.open('GET', 'http://www.geoplugin.net/xml.gp?ip='+ randomIP, true)
 xhr.onload = function() {
   if (xhr.status === 200) {
@@ -54,8 +54,8 @@ xhr.onload = function() {
      p.textContent = country;
      console.log(country);
 
-     ip.value = randomIP;
-     randomIP = '';
+      ip.value = randomIP;
+      randomIP = '';
      
      }        
  }
@@ -65,6 +65,10 @@ xhr.send('');
 }
 
 btn.addEventListener('click', getXML)
+
+
+
+
 
 
 
